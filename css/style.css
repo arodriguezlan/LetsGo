@@ -1,132 +1,219 @@
 header {
-    background-image: url('../img/carrete.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: #1c6909; */
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    position: fixed;
-    
-  }
-  .body{
-    margin-top: 15%;
-  }
+  background-image: url('../img/carrete.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #1c6909; */
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  position: fixed;
+  
+}
+.body{
+  margin-top: 15%;
+}
 .top{
-    margin-top: 25%;
+  margin-top: 25%;
 }
 .princi{
-    margin-left: 50%;
+  margin-left: 50%;
 }
 .blockquote-footer{
-    margin-left: 50%;
+  margin-left: 50%;
 }
 .mid1,.mid2,.mid3{
-    margin-left: 35%;
+  margin-left: 35%;
 }
 .btn-primary{
-    color: white;
-    background-color: orangered;
+  color: white;
+  background-color: #d2691e;
 }
 #tituloTabla,#trasnAcua,#trasnFerry,#transAereo{
-  background-color: orangered;
+background-color: orangered;
 }
 h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  main {
-    padding: 150px;
-    text-align: center;
-  }
-  h2 {
-    width: 100%;
-    background-color: rgb(244, 73, 30);
-    display: inline block;
-    text-align: center;
-    border: 1px solid 
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: center;
 }
-  
-  p {
-    color: #666666;
-    font-size: 16px;
-  }
-  
-  /* Estilos para el footer */
-  footer {
-    background-color: #095c2b;
-    padding: 20px;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    margin-left: -50px;
-  }
+main {
+  padding: 150px;
+  text-align: center;
+}
 
-  h4 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    width: 100%;
-    background-color: rgb(8, 114, 4);
-    border: 5px dotted rgb(236, 233, 233);
-    display: inline block;
-    text-align: center;
-    border: 1px solid;
-    
-  }
-  
-  footer p {
-    color: #ffffff;
-  }
-  
-  /* Estilos adicionales */
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-  }
-  
-  a {
-    color: #0bcead;
-    text-decoration: none;
-  }
+p {
+  color: #666666;
+  font-size: 16px;
+}
 
-  .social-banner {
-    position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Estilos para el footer */
+footer {
+  background-color: #095c2b;
+  text-align: center;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: -50px;
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: rgb(8, 114, 4);
+  border: 5px dotted rgb(236, 233, 233);
+  display: inline block;
+  text-align: center;
+  border: 1px solid;
+  
+}
+
+footer p {
+  color: #ffffff;
+}
+
+/* Estilos adicionales */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0bcead;
+  text-decoration: none;
+}
+
+.social-banner {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .social-icon {
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: #fff;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .social-icon img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    transition: transform 0.2s;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.2s;
 }
 
 .social-icon img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
+
+#rutaForm {
+  padding: 30px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+}
+
+button.iniciar, 
+button.cancelar,
+button.Registrarse{
+  width: 200px;
+}
+
+.custom-image {
+  margin-top: 10px;
+  width: 100%; 
+  height: 100%; 
+}
+
+.table-row {
+  padding: 10px;
+  border: 3px solid #ccc;
+  background-color: #fff;
+}
+
+.table-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+#bodyMedios {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  text-align: center;
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  background-color: rgb(92, 128, 130);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+  .container-medios {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .Rentacar, .Registrostyle, .Taxis {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .Rentacar h1, .Registrostyle h1, .Taxis h1 {
+    font-size: 48px;
+    color: #003366;
+    text-align: center;
+    margin-top: 0;
+  }
+  .Rentacar h3, .Registrostyle h3, .Taxis h3 {
+    font-size: 24px;
+    color: #003366;
+    text-align: center;
+    margin-top: 0;
+  }
+  .Rentacar p, .Registrostyle p, .Taxis p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+
+
