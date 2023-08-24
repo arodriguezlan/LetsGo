@@ -222,77 +222,53 @@
       </div>
     </div>
 
-    <section id="consejos-transporte">
-      <h2>Consejos de Transporte</h2>
-      <p>Aquí encontrarás algunos consejos útiles para moverte por Costa Rica y aprovechar al máximo tus desplazamientos.</p>
-    </section>
-
-    <section id="recursos-adicionales">
-      <h2>Recursos Adicionales</h2>
-      <p>Explora estos enlaces y recursos adicionales para obtener más información sobre los medios de transporte en Costa Rica:</p>
-      <ul>
-        <li><a href="#">Guías de turismo</a></li>
-        <li><a href="#">Información sobre rutas y horarios</a></li>
-        <li><a href="#">Consejos para la conducción en Costa Rica</a></li>
-        <li><a href="#">Mapas y planos de transporte</a></li>
-        <li><a href="#">Preguntas frecuentes</a></li>
-      </ul>
-    </section>
-
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos:</p>
-      <p>Teléfono: +506 7141 9061</p>
-      <p>Email: letsgo@turismo.com</p>
-    </section>
-    <section id="sugerencias">
-      <h2>Sugerencias</h2>
-
-      <form action="" method="get" name="Sugerencias">
-        <input type="text" 
-        sugerencias="" id="Sugerencias"
-        placeholder=" Escriba su sugerencias aquí.."
-        size="120">
-        <input type="submit" value="Aceptar">
-        <br><br>
-    </section>
-    <section id="Redes sociales">
-      <h2><center>Redes Sociales</center></h2>
-      <table width="300px" style="position: relative; left: 180px;">
-        <tr>
-            <th>Facebook</th><th>Instagram</th><th>Tik Tok</th><th>Youtube</th>
-        </tr>
-        <tr>
-            <th> <a href="https://www.facebook.com/"> <img src="img/Facebook.png" width="50" height="50"> </a> </th>
-            <th> <a href="https://www.instagram.com/"> <img src="img/Instagram.png" width="50" height="50"> </a> </th>
-            <th> <a href="https://www.tiktok.com/es/"> <img src="img/Tik Tok.png" width="50" height="50"> </a> </th>
-            <th> <a href="https://www.youtube.com/"> <img src="img/Youtube.png" width="50" height="50"> </a> </th>
-        </tr>
-      </table>
-    </section>
+    <section id="sugerencias" class="my-5">
+    <div class="container">
+        <form action="" method="get" name="Sugerencias" class="mt-3">
+            <div class="form-group">
+                <label for="sugerencias">Escriba su sugerencia aquí:</label>
+                <textarea class="form-control" id="sugerencias" name="sugerencias" rows="4" placeholder="Escriba su sugerencia aquí..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Sugerencia</button>
+        </form>
+    </div>
+  </section>
+  
+       <br>
+       <div class="social-banner">
+        <a href="https://www.facebook.com/" class="social-icon"><img src="img/Facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" class="social-icon"><img src="img/Instagram.png" alt="Instagram"></a>
+        <a href="https://www.tiktok.com/es/" class="social-icon"><img src="img/Tik Tok.png" alt="TikTok"></a>
+        <a href="https://www.youtube.com/" class="social-icon"><img src="img/Youtube.png" alt="YouTube"></a>
+    </div>
 </main>
-    <footer>
-      <div>
-        <h3>Sobre Nosotros</h3>
-        <p>Somos una agencia de turismo dedicada a brindar experiencias inolvidables a nuestros clientes.</p>
+<footer class="bg-green text-light py-4">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h3>Sobre Nosotros</h3>
+              <p>Somos una agencia de turismo dedicada a brindar experiencias inolvidables a nuestros clientes.</p>
+          </div>
+          <div class="col-md-4">
+              <h3>Enlaces</h3>
+              <ul class="list-unstyled">
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="#">Transporte Público</a></li>
+                  <li><a href="#">Alquiler de Vehículos</a></li>
+                  <li><a href="aereo.html">Vuelos Internos</a></li>
+                  <li><a href="consejoTransporte.html">Consejos de Transporte</a></li>
+                  <li><a href="recursosAdicionales.html">Recursos Adicionales</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <p>&copy; 2023 Let's Go - Medios de Transporte en Costa Rica. Todos los derechos reservados.</p>
+              <p>Versión 29.6.3</p>
+          </div>
       </div>
-      <div>
-        <h3>Enlaces</h3>
-        <nav>
-          <li><a href="index.html">Inicio</a></li>
-                <li><a href="">Transporte Público</a></li>
-                <li><a href="#">Alquiler de Vehículos</a></li>
-                <li><a href="aereo.html">Vuelos Internos</a></li>
-                <li><a href="consejoTransporte.html">Consejos de Transporte</a></li>
-                <li><a href="recursosAdicionales.html">Recursos Adicionales</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-        </nav>
-      </div>
-      <div>
-        <p>&copy; 2023 Let's Go - Medios de Transporte en Costa Rica. Todos los derechos reservados.</p>
-        <p>Version 29.6.2</p>
-      </div>
-    </footer>
+  </div>
+</footer>
+
 
   <script src="js/index.js"></script>
   <script
