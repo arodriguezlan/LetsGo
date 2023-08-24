@@ -12,7 +12,7 @@ header {
   position: fixed;
   
 }
-.body{
+.t{
   margin-top: 15%;
 }
 .top{
@@ -183,6 +183,7 @@ button.Registrarse{
     flex-direction: column;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 15%;
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
