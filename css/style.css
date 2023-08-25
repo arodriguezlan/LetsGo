@@ -243,36 +243,17 @@ button.Registrarse{
     background-color: #ccc;
   }
   
-  /* Aplica a todas las tablas con clase "table-responsive" */
-.table-responsive {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  .pregunta {
+    text-decoration: none; /* Evita el subrayado */
+    color: #FF5733; /* Cambia el color de las preguntas (puedes ajustarlo) */
+    margin-bottom: 10px; /* Espacio entre preguntas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre las preguntas */
+}
+.pregunta:hover {
+    text-decoration: none; /* Evita el subrayado al pasar el cursor */
+}
+.pregunta:focus {
+    outline: none; /* Elimina el contorno al hacer clic */
 }
 
-/* Centra el contenido de las celdas */
-.table-responsive table {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
-.table-responsive th, .table-responsive td {
-  text-align: center;
-  padding: 8px;
-  border-bottom: 1px solid #ddd;
-}
-
-/* Estilos adicionales para mejorar la visualización */
-.table-responsive thead {
-  font-weight: bold;
-  background-color: #f2f2f2;
-}
-
-.table-responsive th {
-  background-color: #ddd;
-}
-  
