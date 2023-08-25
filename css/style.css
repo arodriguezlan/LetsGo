@@ -179,38 +179,52 @@ button.Registrarse{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
-  .container-medios {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 15%;
-    padding: 40px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  }
+.container-medios {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 15%;
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
 
-  .Rentacar, .Registrostyle, .Taxis {
+.container-medios-train {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 15%;
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+  .Rentacar, .Registrostyle, .Taxis, .Tren-medio {
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   }
   
-  .Rentacar h1, .Registrostyle h1, .Taxis h1 {
+  .Rentacar h1, .Registrostyle h1, .Taxis h1, .Tren-medio h1 {
     font-size: 48px;
     color: #003366;
     text-align: center;
     margin-top: 0;
   }
-  .Rentacar h3, .Registrostyle h3, .Taxis h3 {
+  .Rentacar h3, .Registrostyle h3, .Taxis h3, .Tren-medio h3 {
     font-size: 24px;
     color: #003366;
     text-align: center;
     margin-top: 0;
   }
-  .Rentacar p, .Registrostyle p, .Taxis p {
+  .Rentacar p, .Registrostyle p, .Taxis p, .Tren-medio p {
     font-size: 20px;
     line-height: 1.5;
     text-align: justify;
