@@ -23,6 +23,7 @@ header {
 }
 .blockquote-footer{
   margin-left: 50%;
+  color: #1e0e35;
 }
 .mid1,.mid2,.mid3{
   margin-left: 35%;
@@ -45,7 +46,7 @@ main {
 }
 
 p {
-  color: #666666;
+  color: #1e0e35;
   font-size: 16px;
 }
 
@@ -165,7 +166,7 @@ button.Registrarse{
   object-fit: cover;
 }
 
-#bodyMedios {
+#bodyMedios,body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -221,4 +222,11 @@ button.Registrarse{
     margin-right: -20px;
     margin-bottom: -20px;
   }
+  .tourPage,.hospePage{
+    border-color: #1e0e35;
+    border: solid 5px;
+    border-radius: 5%;
+    background-color: #ccc;
+  }
+  
   

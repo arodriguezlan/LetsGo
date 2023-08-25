@@ -31,7 +31,7 @@ exampleModa2.addEventListener('show.bs.modal', function (event) {
   modalBodyInput.value = recipient
 })
 var exampleModa3 = document.getElementById('exampleModa3')
-exampleModa2.addEventListener('show.bs.modal', function (event) {
+exampleModa3.addEventListener('show.bs.modal', function (event) {
   // Botón que activó el modal
   var button = event.relatedTarget
   // Extraer información de los atributos data-bs-*
@@ -47,7 +47,7 @@ exampleModa2.addEventListener('show.bs.modal', function (event) {
   modalBodyInput.value = recipient
 })
 var exampleModa4 = document.getElementById('exampleModa4')
-exampleModa2.addEventListener('show.bs.modal', function (event) {
+exampleModa4.addEventListener('show.bs.modal', function (event) {
   // Botón que activó el modal
   var button = event.relatedTarget
   // Extraer información de los atributos data-bs-*
@@ -63,7 +63,7 @@ exampleModa2.addEventListener('show.bs.modal', function (event) {
   modalBodyInput.value = recipient
 })
 var exampleModa5 = document.getElementById('exampleModa5')
-exampleModa2.addEventListener('show.bs.modal', function (event) {
+exampleModa5.addEventListener('show.bs.modal', function (event) {
   // Botón que activó el modal
   var button = event.relatedTarget
   // Extraer información de los atributos data-bs-*
@@ -76,5 +76,21 @@ exampleModa2.addEventListener('show.bs.modal', function (event) {
   var modalBodyInput = exampleModa5.querySelector('.modal-body input')
 
   modalTitle.textContent = 'Canopy Malpais ' + recipient
+  modalBodyInput.value = recipient
+})
+var exampleModa6 = document.getElementById('exampleModa6')
+exampleModa6.addEventListener('show.bs.modal', function (event) {
+  // Botón que activó el modal
+  var button = event.relatedTarget
+  // Extraer información de los atributos data-bs-*
+  var recipient = button.getAttribute('data-bs-whatever')
+  // Si es necesario, puedes iniciar una solicitud AJAX aquí
+  // y luego realiza la actualización en una devolución de llamada.
+  //
+  // Actualizar el contenido del modal.
+  var modalTitle = exampleModa6.querySelector('.modal-title')
+  var modalBodyInput = exampleModa6.querySelector('.modal-body input')
+
+  modalTitle.textContent = 'Tour Tortuga' + recipient
   modalBodyInput.value = recipient
 })
