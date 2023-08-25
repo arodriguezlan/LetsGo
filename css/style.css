@@ -216,5 +216,9 @@ button.Registrarse{
     margin-top: 20px;
   }
 
-
-
+  footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+  }
+  
